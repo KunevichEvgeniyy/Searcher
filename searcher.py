@@ -104,4 +104,4 @@ async def parse_url_and_title(search_string: str) -> None:
         await f.write('\n'.join(date_from_search))
 
 
-asyncio.run(parse_url_and_title(input('Place_you_need_to_find >> ')))
+asyncio.run(parse_url_and_title(input('Enter you`re questions >> ')))
