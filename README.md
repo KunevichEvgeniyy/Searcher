@@ -1,6 +1,12 @@
 # Searcher [ google | bing | duckduckgo | yandex ]
 
-### Установка
+###
+
+```
+
+```
+
+### 
 
 ```
 pip install -U pip
