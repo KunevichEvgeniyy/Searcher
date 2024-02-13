@@ -1,4 +1,4 @@
-# Searcher [google|bing|duckduckgo|yandex]
+# Searcher [ google | bing | duckduckgo | yandex ]
 
 ### Установка
 
