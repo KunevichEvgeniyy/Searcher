@@ -82,9 +82,9 @@ async def parse_url_and_title(search_string: str) -> None:
                         shortened = textwrap.shorten(text=original, width=150)
                         title = wrapper.fill(text=shortened)
                         date_from_search.append(
-                            f"Search_system: {search.__name__.replace('search_', '')} "
+                            f"Search_system: [{search.__name__.replace('search_', '')}] "
                             f"Заголовок: {title}\t "
-                            f"Сайт: {url}"
+                            f"URL сайта: {url}"
                         )
                     except (
                             TypeError,
