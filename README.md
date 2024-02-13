@@ -4,12 +4,12 @@
 
 ```
 !Windows!
-pip install --upgrade pip
+pip install -U pip
 pip install -r requirements.txt
 
 !Linux!
-python -m pip3 install --upgrade pip3
-pip3 install -r requirements.txt
+python -m pip install -U pip
+pip install -r requirements.txt
 ```
 
 ### Для использования достаточно запустить.
@@ -28,7 +28,7 @@ python3 searcher.py
 ### Указываем интересующюю нас информацию и получаем, вывод в файл и консоль со следйющими данными
 
 ```
-Search_system [google, bing, duckduckgo и yandex] Заголовок: [title] URL сайта: [url]
+Search_system [google|bing|duckduckgo|yandex] Заголовок: [title] URL сайта: [url]
 ```
 
 
