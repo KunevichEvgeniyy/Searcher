@@ -29,5 +29,10 @@ python searcher.py
 Search_system [google|bing|duckduckgo|yandex] Заголовок: [title] URL сайта: [url]
 ```
 
+##### Название файла будет следующим
+
+```
+result_search_{name_uuid}.txt
+```
 
     
