@@ -3,12 +3,7 @@
 ### Установка
 
 ```
-!Windows!
 pip install -U pip
-pip install -r requirements.txt
-
-!Linux!
-python -m pip install -U pip
 pip install -r requirements.txt
 ```
 
