@@ -1,4 +1,4 @@
-# Пробный асинхранный проект для поиска title сайта из поисковых систем google, bing, duckduckgo и yandex по урлам из выдачи
+# Searcher [google|bing|duckduckgo|yandex]
 
 ### Установка
 
