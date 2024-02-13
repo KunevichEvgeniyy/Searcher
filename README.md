@@ -1,23 +1,16 @@
-# Пробный асинхранный проект для поиска title сайта из поисковых систем google, bing, duckduckgo и yandex по урлам из выдачи
+# Searcher [google|bing|duckduckgo|yandex]
 
 ### Установка
 
 ```
-!Windows!
 pip install -U pip
-pip install -r requirements.txt
-
-!Linux!
-python -m pip install -U pip
 pip install -r requirements.txt
 ```
 
 ### Для использования достаточно запустить.
 
 ```
-python searcher.py 
-or
-python3 searcher.py
+python searcher.py
 ```
 
 ### Далее в консоли попросит ввод данных для поиска.
@@ -25,11 +18,16 @@ python3 searcher.py
 ```
 >>
 ```
-### Указываем интересующюю нас информацию и получаем, вывод в файл и консоль со следйющими данными
+### Указываем интересующюю нас информацию, вывод в файл и консоль со следйющими данными
 
 ```
 Search_system [google|bing|duckduckgo|yandex] Заголовок: [title] URL сайта: [url]
 ```
 
+##### Название файла будет следующим
+
+```
+result_search_{name_uuid}.txt
+```
 
     
