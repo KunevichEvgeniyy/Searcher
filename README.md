@@ -1,12 +1,12 @@
 # Searcher [ google | bing | duckduckgo | yandex ]
 
-###
+### Клоним репозиторий
 
 ```
-
+git clone https://github.com/KunevichEvgeniyy/Searcher.git
 ```
 
-### 
+### Устанавливаем зависимости
 
 ```
 pip install -U pip
