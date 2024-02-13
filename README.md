@@ -15,9 +15,7 @@ pip install -r requirements.txt
 ### Для использования достаточно запустить.
 
 ```
-python searcher.py 
-or
-python3 searcher.py
+python searcher.py
 ```
 
 ### Далее в консоли попросит ввод данных для поиска.
