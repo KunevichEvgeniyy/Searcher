@@ -1,6 +1,7 @@
 import uuid
 import asyncio
 import aiofiles
+import pyshorteners
 from urllib.parse import quote_plus, unquote_plus
 from bs4 import BeautifulSoup as Bs
 import textwrap
@@ -84,7 +85,7 @@ async def parse_url_and_title(search_string: str) -> None:
                         date_from_search.append(
                             f"Search_system: [{search.__name__.replace('search_', '')}] "
                             f"Заголовок: {title}\t "
-                            f"URL сайта: {url}"
+                            f"URL сайта: {pyshorteners.Shortener().clckru.short(url)}"
                         )
                     except (
                             TypeError,
