@@ -47,7 +47,7 @@ async def get_page_search(search_url: str) -> Union[str, None]:
                 return await resp.text()
 
 
-async def search_service(search_url: str, search_string: str) -> str:
+async def search_service(search_url: str, search_string: str) -> Union[str, None]:
     """
     Get page in search system
 
